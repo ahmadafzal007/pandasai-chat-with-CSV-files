@@ -1,0 +1,692 @@
+2024-08-06 02:22:45 [INFO] Question: How many rows are there in this file
+
+2024-08-06 02:22:45 [INFO] Running PandasAI with local LLM...
+2024-08-06 02:22:45 [INFO] Prompt ID: 09f46afb-ba96-43d8-99a3-655427741a72
+2024-08-06 02:22:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 02:22:45 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 02:22:45 [INFO] Executing Step 1: CacheLookup
+2024-08-06 02:22:46 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 02:22:46 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+9351215792,9237986131,7121950009,287000.0,10607,966,42222,6941.3,11344.8,39864.3,67956.6,42208.7,2913.0,52,0,3,2
+6767827201,0964953616,9144817966,291100.0,5780,4092,39387,17269.2,26217.1,9732.1,113497.8,37273.6,10116.4,21,0,8,3
+8405751094,7829694836,3503727587,413600.0,6960,1247,6942,7036.3,6179.6,3013.1,82015.6,18661.0,15965.4,39,1,11,1
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ How many rows are there in this file
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 02:22:46 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 02:23:12 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2024-08-06 02:23:12 [INFO] Retrying request to /chat/completions in 0.788228 seconds
+2024-08-06 02:24:39 [INFO] Question: How many rows are there in this file
+
+2024-08-06 02:24:39 [INFO] Running PandasAI with local LLM...
+2024-08-06 02:24:39 [INFO] Prompt ID: f700c9ea-ddcd-41e9-bc97-02c5bb3fd9b6
+2024-08-06 02:24:39 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 02:24:40 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 02:24:40 [INFO] Executing Step 1: CacheLookup
+2024-08-06 02:24:40 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 02:24:40 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+0861305494,1431291151,4922570399,767000.0,6664,1666,7126,3763.7,39791.9,15572.9,71103.0,2723.5,254.2,7,1,1,3
+3007861814,3766441948,5160094600,1550000.0,19305,1430,12300,4865.1,17152.5,10267.4,128140.2,43483.3,10638.5,43,0,8,4
+1229624644,7577575469,6461886230,466200.0,7270,4219,3145,13028.4,50513.5,35786.6,63753.9,50742.5,5692.0,64,0,12,5
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ How many rows are there in this file
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 02:24:40 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 02:25:13 [INFO] Question: Number of rows in this csv file
+2024-08-06 02:25:13 [INFO] Running PandasAI with local LLM...
+2024-08-06 02:25:13 [INFO] Prompt ID: e679e943-5889-4ade-8188-7e8db8c09755
+2024-08-06 02:25:13 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 02:25:13 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 02:25:13 [INFO] Executing Step 1: CacheLookup
+2024-08-06 02:25:13 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 02:25:13 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+25.540604813,7036371147,1019418754,686000.0,12128,2622,39173,9647.4,35496.4,520.0,111025.1,44383.1,15316.3,8,0,4,2
+25.4593121797,3133552103,7748038485,1000000.0,4399,3926,2058,10938.0,56407.0,941.9,63033.5,16423.7,9316.5,45,1,2,3
+25.8557791964,8283655587,7249944580,374200.0,5283,2849,18415,11413.4,9772.0,927.2,67869.1,57274.1,1158.9,7,1,3,4
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Number of rows in this csv file
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 02:25:13 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 02:33:13 [INFO] Retrying request to /chat/completions in 1.734140 seconds
+2024-08-06 02:34:42 [INFO] Retrying request to /chat/completions in 0.940440 seconds
+2024-08-06 02:35:15 [INFO] Retrying request to /chat/completions in 0.752249 seconds
+2024-08-06 02:35:29 [INFO] Question: Number of rows in this csv file
+2024-08-06 02:35:29 [INFO] Running PandasAI with local LLM...
+2024-08-06 02:35:29 [INFO] Prompt ID: b56460e5-c1ad-4d90-ade2-1f9b327911d2
+2024-08-06 02:35:29 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 02:35:29 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 02:35:29 [INFO] Executing Step 1: CacheLookup
+2024-08-06 02:35:29 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 02:35:29 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+2617896284,5797782472,8951867343,333500.0,7091,1211,3575,14515.0,4011.7,33195.0,155880.2,38395.8,11877.7,83,0,10,5
+0822600353,3301411951,3745842698,226000.0,7475,1437,7803,16765.6,21139.5,8293.4,76025.1,56480.6,15277.0,15,1,4,3
+4723310885,6329406963,8973650809,296100.0,4080,2263,51080,3599.1,12133.8,24340.3,100677.3,29091.9,18676.8,82,0,11,4
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Number of rows in this csv file
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 02:35:29 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 02:36:26 [INFO] Question: what us the highest ocean_dist
+2024-08-06 02:36:26 [INFO] Running PandasAI with local LLM...
+2024-08-06 02:36:26 [INFO] Prompt ID: 4b39c3d5-22b3-4fd9-ac3a-783e45be2437
+2024-08-06 02:36:26 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 02:36:27 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 02:36:27 [INFO] Executing Step 1: CacheLookup
+2024-08-06 02:36:27 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 02:36:27 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+3431375248,3621769320,5133543674,352000.0,5691,1687,792,6155.4,32562.8,5815.1,58717.0,21612.3,13734.4,90,0,11,4
+8323342285,1943337257,7031556063,1895100.0,5930,3262,28868,11710.8,17502.2,1477.0,91552.0,26537.0,2427.7,5,1,12,2
+3263154383,5612612307,9764860828,321400.0,6567,3971,35326,4226.0,23703.2,25235.0,93041.4,62958.8,8919.3,1,0,1,5
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ what us the highest ocean_dist
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 02:36:27 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 02:36:44 [INFO] Question: what us the highest ocean_dist
+2024-08-06 02:36:44 [INFO] Running PandasAI with local LLM...
+2024-08-06 02:36:44 [INFO] Prompt ID: 26532071-008f-42fa-9d6e-7da9c28e034f
+2024-08-06 02:36:44 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 02:36:44 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 02:36:44 [INFO] Executing Step 1: CacheLookup
+2024-08-06 02:36:44 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 02:36:44 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+7237382746,2913900213,8269038333,241300.0,8169,3738,35637,10469.3,24536.5,41188.2,80832.0,58849.2,3066.9,0,0,3,2
+1810402942,5413512557,8558616163,1040000.0,7731,2665,65262,3287.4,54986.0,11156.6,69166.7,48649.3,1653.8,46,0,11,5
+4852419827,5732048697,2919291073,285800.0,19317,2269,1044,9198.0,19745.6,6896.1,35240.1,24047.2,16508.0,30,1,9,3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ what us the highest ocean_dist
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 02:36:44 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 02:36:46 [INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-06 02:36:46 [ERROR] Pipeline failed on step 3: Error code: 404 - {'error': {'message': "model 'llama' not found, try pulling it first", 'type': 'api_error', 'param': None, 'code': None}}
+2024-08-06 02:36:56 [INFO] Question: what us the highest ocean_dist
+2024-08-06 02:36:56 [INFO] Running PandasAI with local LLM...
+2024-08-06 02:36:56 [INFO] Prompt ID: 0b2c86be-5626-4186-9504-8a35cdf06c9f
+2024-08-06 02:36:56 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 02:36:56 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 02:36:56 [INFO] Executing Step 1: CacheLookup
+2024-08-06 02:36:56 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 02:36:56 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+2315395666,0400666484,0846870962,357700.0,16920,3024,694,4871.7,34718.8,11971.5,57299.6,39099.6,129.7,96,1,6,2
+0432811130,2561814941,7656926065,329500.0,5366,1235,1568,4551.4,8270.8,954.6,121627.0,42648.1,16552.3,63,0,2,4
+6009772090,6055531497,9109909913,110000.0,12100,1298,21865,2292.1,10097.7,5372.4,91511.4,10025.9,5553.2,40,1,8,3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ what us the highest ocean_dist
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 02:36:56 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 02:43:17 [ERROR] Pipeline failed on step 3: Request timed out.
+2024-08-06 02:44:45 [INFO] Retrying request to /chat/completions in 1.893217 seconds
+2024-08-06 02:45:19 [INFO] Retrying request to /chat/completions in 1.789445 seconds
+2024-08-06 02:45:31 [INFO] Retrying request to /chat/completions in 0.886405 seconds
+2024-08-06 02:46:29 [INFO] Retrying request to /chat/completions in 0.910014 seconds
+2024-08-06 02:46:58 [INFO] Retrying request to /chat/completions in 0.768695 seconds
+2024-08-06 02:48:45 [INFO] Question: How many rows are in this csv file
+
+2024-08-06 02:48:45 [INFO] Running PandasAI with local LLM...
+2024-08-06 02:48:45 [INFO] Prompt ID: 95ab833d-e69b-4b11-abf7-2e63dbab515a
+2024-08-06 02:48:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 02:48:45 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 02:48:45 [INFO] Executing Step 1: CacheLookup
+2024-08-06 02:48:45 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 02:48:45 [INFO] Using prompt: <dataframe>
+dfs[0]:1124x3
+image_id,text,label
+005EHRy1gw1evveb0cxsbj312w0m8do3.jpg,"[How far is the truth?] I just saw on the Internet that Li Gang's son Li Qiming said ""My father is Li Gang"" is only part of what he said. The original words are ""Call 120 quickly. It's important to save people. It's OK. My father is Li Gang."" I suddenly felt a pang of sadness in my heart. Chinese media, how can you turn black and white upside down. Via @ Zheng Xiang 505",0
+6541fc49jw1ezm50ar4wwj20c8073dgw.jpg,"[What can ordinary Chinese people do except kneel down?] -- In order to keep the school, parents have insisted for four days -- Dayang Town Central School, Jinyun County, Zhejiang Province, was included in the ""merger and withdrawal"" object. Five or six hundred junior high school students, school-age children, need to go sixty or seventy miles to study. As soon as the reporter's car arrived at the scene, the villagers fell down on their knees - the villagers had insisted for four days. More than one retransmission will result in more than one hope via @ breast and buttock enhancement v",1
+44666b3egw1eeqkdbjvcqj20bk08mgmj.jpg,"If you have unwanted second-hand baby clothes, I hope you can donate them to Guangzhou Abandoned Baby Island, where more than 200 abandoned babies have been received within two months. They are understaffed and short of resources. I hope you can help these homeless babies by forwarding them. They can't receive donations by mail, and the donated items can only be delivered by themselves. Address: No. 233, Longhu Road, Longdong, Tianhe District. Good people have a safe life! Forward it, support public welfare",0
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ How many rows are in this csv file
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 02:48:45 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 03:03:51 [INFO] Question: What is the highest WATER_DIST
+2024-08-06 03:03:51 [INFO] Running PandasAI with local LLM...
+2024-08-06 03:03:51 [INFO] Prompt ID: 33600f9a-551d-43e7-8a50-70b23e2347ad
+2024-08-06 03:03:51 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 03:03:51 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 03:03:51 [INFO] Executing Step 1: CacheLookup
+2024-08-06 03:03:51 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 03:03:51 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+8995185991,7836010975,1542415214,975000.0,6726,3739,58473,12738.7,46217.5,576.1,119247.4,31572.0,24020.5,51,1,6,3
+4089271271,1952563967,9956837199,645000.0,13125,5689,3800,1217.3,6490.1,3072.4,136637.9,47470.0,10954.6,89,1,9,2
+4700370559,0595333660,3224317324,643400.0,8825,1523,20582,12155.1,31949.8,7855.0,83569.0,88712.7,2091.9,72,0,1,1
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ What is the highest WATER_DIST
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 03:03:51 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 03:13:53 [INFO] Retrying request to /chat/completions in 0.815596 seconds
+2024-08-06 03:23:57 [INFO] Retrying request to /chat/completions in 1.781508 seconds
+2024-08-06 03:24:19 [INFO] Question: What is the highest WATER_DIST
+2024-08-06 03:24:19 [INFO] Running PandasAI with local LLM...
+2024-08-06 03:24:19 [INFO] Prompt ID: e99c505f-a5a4-4cf9-874a-3315cecc177d
+2024-08-06 03:24:19 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 03:24:19 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 03:24:19 [INFO] Executing Step 1: CacheLookup
+2024-08-06 03:24:20 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 03:24:20 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+25.855033564,9353814116,5989768659,296100.0,3890,1688,1157,13780.7,62272.1,22470.6,134896.2,103791.0,362.0,57,0,11,2
+25.6010866435,3443571601,4757729389,145400.0,11293,3828,33618,8935.1,42743.7,9201.3,128790.9,8797.5,14252.4,60,0,4,5
+25.9498971319,0621476334,6950541819,153400.0,2804,2813,28920,14098.4,37266.6,230.5,62836.9,31650.6,3845.5,42,1,5,4
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ What is the highest WATER_DIST
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 03:24:20 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 03:34:00 [ERROR] Pipeline failed on step 3: Request timed out.
+2024-08-06 03:34:22 [INFO] Retrying request to /chat/completions in 0.952092 seconds
+2024-08-06 23:34:58 [INFO] Question: does LATITUDE column name exist
+2024-08-06 23:34:58 [INFO] Running PandasAI with local LLM...
+2024-08-06 23:34:58 [INFO] Prompt ID: 231e86bb-3b99-4d0a-8d7b-6367b5c916f3
+2024-08-06 23:34:58 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 23:34:59 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 23:34:59 [INFO] Executing Step 1: CacheLookup
+2024-08-06 23:34:59 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 23:34:59 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+3290159354,-80.252899656,4296175153,356000.0,7245,1117,13234,10693.9,17915.4,16865.8,133733.9,11149.2,1850.5,0,1,9,1
+4643709836,-80.3629876873,0419330188,411500.0,5366,1123,34191,12101.4,26747.4,17610.3,38271.7,47863.9,2668.0,44,0,3,2
+3235183663,-80.1843637796,5182427134,829900.0,13316,5182,4182,220.7,42723.3,10629.7,78498.8,32076.1,13203.1,10,1,4,3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ does LATITUDE column name exist
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 23:34:59 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 23:37:41 [INFO] Question: does LATITUDE column name exist
+2024-08-06 23:37:41 [INFO] Running PandasAI with local LLM...
+2024-08-06 23:37:41 [INFO] Prompt ID: 727d14f7-ad9f-4227-9393-0fa4cb22f120
+2024-08-06 23:37:41 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 23:37:41 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 23:37:41 [INFO] Executing Step 1: CacheLookup
+2024-08-06 23:37:41 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 23:37:41 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+6169589512,5330658135,6452795056,318900.0,3060,1890,63250,6655.6,39555.1,3157.5,92782.1,35293.4,9664.8,62,1,8,4
+2899270503,0231164962,3702577891,412600.0,7641,962,29996,20427.1,8524.0,21913.5,89055.8,46622.8,7994.5,87,0,11,5
+3090325525,4898073765,4946596372,300500.0,4801,2725,2064,10623.1,28124.5,45542.9,96131.1,19749.6,6234.4,38,0,5,1
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ does LATITUDE column name exist
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 23:37:41 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 23:59:31 [INFO] Question: rows
+2024-08-06 23:59:31 [INFO] Running PandasAI with local LLM...
+2024-08-06 23:59:31 [INFO] Prompt ID: 7ee029a5-2a55-4456-bbbd-9f4c4dee866e
+2024-08-06 23:59:31 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-06 23:59:31 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-06 23:59:31 [INFO] Executing Step 1: CacheLookup
+2024-08-06 23:59:31 [INFO] Executing Step 2: PromptGeneration
+2024-08-06 23:59:31 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+9291361697,2668956100,5446806099,421500.0,3751,1152,3552,408.0,61700.5,22527.2,68623.4,28499.0,12689.5,12,0,5,4
+4027977061,4096929625,0855109545,437000.0,8406,4254,8688,12369.0,7733.1,5360.3,82211.0,65705.7,11022.0,41,0,10,3
+5888957272,9826456550,2853632595,396000.0,9633,3177,3294,6756.0,15395.1,7520.5,83635.3,7547.9,256.7,49,1,2,1
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ rows
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-06 23:59:31 [INFO] Executing Step 3: CodeGenerator
+2024-08-06 23:59:33 [INFO] HTTP Request: POST http://localhost:11434/v1/prompt/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-06 23:59:33 [ERROR] Pipeline failed on step 3: 404 page not found
+2024-08-07 00:00:51 [INFO] Question: total rows
+
+2024-08-07 00:00:51 [INFO] Running PandasAI with local LLM...
+2024-08-07 00:00:51 [INFO] Prompt ID: de9ba28b-87b8-4c7a-bdc5-7fa00f433ff7
+2024-08-07 00:00:51 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-07 00:00:51 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-07 00:00:51 [INFO] Executing Step 1: CacheLookup
+2024-08-07 00:00:51 [INFO] Executing Step 2: PromptGeneration
+2024-08-07 00:00:51 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+5116046280,6339661966,3223363486,167000.0,5059,3157,1647,6780.9,54094.1,29560.8,72294.6,35077.0,5961.2,57,0,10,4
+6208328126,1386355048,0606268299,541000.0,6013,4867,9192,10159.9,36023.3,1750.1,138008.7,14934.6,4435.3,92,1,6,5
+1677212595,9857901597,4627726061,203000.0,9517,1792,3608,3368.3,43791.8,7128.2,35132.0,11679.8,1076.5,51,0,1,3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ total rows
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-07 00:00:51 [INFO] Executing Step 3: CodeGenerator
+2024-08-07 00:00:53 [INFO] HTTP Request: POST http://localhost:11434/api/generate/chat/completions "HTTP/1.1 404 Not Found"
+2024-08-07 00:00:53 [ERROR] Pipeline failed on step 3: 404 page not found
+2024-08-07 00:01:22 [INFO] Question: total rows
+
+2024-08-07 00:01:22 [INFO] Running PandasAI with local LLM...
+2024-08-07 00:01:22 [INFO] Prompt ID: d57daf5a-0e59-4822-8a1d-ea57624d772c
+2024-08-07 00:01:22 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-07 00:01:22 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-07 00:01:22 [INFO] Executing Step 1: CacheLookup
+2024-08-07 00:01:22 [INFO] Executing Step 2: PromptGeneration
+2024-08-07 00:01:22 [INFO] Using prompt: <dataframe>
+dfs[0]:13932x17
+LATITUDE,LONGITUDE,PARCELNO,SALE_PRC,LND_SQFOOT,TOT_LVG_AREA,SPEC_FEAT_VAL,RAIL_DIST,OCEAN_DIST,WATER_DIST,CNTR_DIST,SUBCNTR_DI,HWY_DIST,age,avno60plus,month_sold,structure_quality
+9265985516,1385388976,9692604232,611700.0,7614,2632,1328,3375.6,31184.0,25726.0,7806.4,14268.2,2856.2,27,0,1,2
+7504671137,5422037022,0355053368,321000.0,6150,3202,1546,17320.0,52309.5,34328.7,97341.7,46101.7,13820.7,59,1,2,4
+2437112213,8019272244,7391533642,432800.0,4050,1159,23685,5364.2,35982.6,7074.9,40815.6,46149.9,18417.8,92,1,11,3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ total rows
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-07 00:01:23 [INFO] Executing Step 3: CodeGenerator
+2024-08-07 00:11:25 [INFO] Retrying request to /chat/completions in 0.835642 seconds
