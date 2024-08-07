@@ -2,7 +2,6 @@
 
 **RAG Chatbot** is a sophisticated conversational agent built with **pandasAI** and **LLaMA 3** via **Ollama**. Developed in Python, this chatbot enables interaction with Excel files to provide intelligent responses based on the data.
 
-**Note:** This project is in progress, with approximately 30% of the total features and code implementation complete. The demo video showcases the primary functionalities of the chatbot.
 
 ---
 
