@@ -15,7 +15,7 @@
 
 ## 🎥 Demo Video
 
-Watch the demo video to see the RAG Chatbot in action:
+Watch the demo video to see the Pandasai Chatbot in action:
 
 [![Chatbot Demo](https://img.youtube.com/vi/9qiesAfahOk/0.jpg)](https://youtu.be/9qiesAfahOk)
 
