@@ -1,6 +1,6 @@
-# 🤖 RAG Chatbot for Excel Files 🤖
+# 🤖 Pandasai Chatbot for Excel Files 🤖
 
-**RAG Chatbot** is a sophisticated conversational agent built with **pandasAI** and **LLaMA 3** via **Ollama**. Developed in Python, this chatbot enables interaction with Excel files to provide intelligent responses based on the data.
+**Pandasai Chatbot** is a sophisticated conversational agent built with **pandasAI** and **LLaMA 3** via **Ollama**. Developed in Python, this chatbot enables interaction with Excel files to provide intelligent responses based on the data.
 
 
 ---
@@ -17,7 +17,7 @@
 
 Watch the demo video to see the RAG Chatbot in action:
 
-[![RAG Chatbot Demo](https://img.youtube.com/vi/9qiesAfahOk/0.jpg)](https://youtu.be/9qiesAfahOk)
+[![Chatbot Demo](https://img.youtube.com/vi/9qiesAfahOk/0.jpg)](https://youtu.be/9qiesAfahOk)
 
 Click the image to view the video.
 
@@ -37,4 +37,4 @@ Click the image to view the video.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/ahmadafzal007/RAG-chatbot-for-excel-files.git
+   git clone https://github.com/ahmadafzal007/pandasai-chatbot-for-excel-files.git
