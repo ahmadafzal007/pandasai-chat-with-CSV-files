@@ -1,4 +1,4 @@
-# 🤖 Pandasai Chatbot for Excel Files 🤖
+# 🤖 Pandasai Chatbot for CSV Files 🤖
 
 **Pandasai Chatbot** is a sophisticated conversational agent built with **pandasAI** and **LLaMA 3** via **Ollama**. Developed in Python, this chatbot enables interaction with Excel files to provide intelligent responses based on the data.
 
@@ -9,7 +9,7 @@
 
 - **Advanced Data Handling:** Utilizes **pandasAI** for efficient data management and retrieval.
 - **Intelligent Responses:** Powered by **LLaMA 3** for contextually accurate replies.
-- **Excel File Integration:** Interacts directly with Excel files to process and respond to queries.
+- **Excel File Integration:** Interacts directly with CSV files to process and respond to queries.
 
 ---
 
